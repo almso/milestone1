@@ -1,0 +1,99 @@
+body{
+	background-color: #F9F5E7;
+	text-align: center;
+}
+	
+h1{
+	text-align: center;
+	color: #36291F;
+	font-family: serif;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+	
+h2{
+	text-align: center;
+	color: #36291F;
+	font-family: sans-serif;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+	
+h3{
+	text-align: center;
+	color: #36291F;
+	font-family: sans-serif;
+	font-size: 1.4em;
+}
+
+p{
+	text-align: center;
+	color: #36291F;
+	font-size: 1.4em;
+	font-family: monospace;
+	margin-left: 7em;
+	margin-right: 7em;
+	margin-top: 2em;
+	
+}
+
+.topnav {
+	background-color: #211D14;
+	overflow: hidden;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 1.3em;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+.topnav a:active {
+	background-color: #646464;
+	color: white;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-size: 3em;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#faculty1, #faculty2, #faculty3{
+    margin-top: 50px;
+	width:400px;
+    height:600px;
+    border:2px solid black;
+    margin-right:10px;
+    float:left;
+}
+.div1{
+    float:center;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
